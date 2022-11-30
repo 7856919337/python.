@@ -1,0 +1,5 @@
+x=("1","ox","dog")
+list1=list(x)
+list1.append("odd")
+x=tuple(list1)
+print(x)
