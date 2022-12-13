@@ -2,7 +2,7 @@
 # print(name)
 # print(age)
  
-x="Eclairs"
-y=2
-c=1
-print(f"brand {x} cost {y} piece {c}")
+# x="Eclairs"
+# y=2
+# c=1
+# print(f"brand {x} cost {y} piece {c}")
