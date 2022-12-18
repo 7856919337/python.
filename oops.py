@@ -1,5 +1,5 @@
 # class Laptop:
-#     def __init__(self,name,processor) -> None:
+#     def __init__(self,name,processor) -> #Nontes: #its work auto matically
 #         self.name=name
 #         self.processor=processor
 
@@ -56,21 +56,61 @@
 # print(car1.brand,car1.mil,car1.wheels)
 # print(car2.brand,car2.mil,car2.wheels)
 
-class student:
-    def __init__(self,marks1,marks2,marks3):
-        self.science=marks1 #variables=parameters
-        self.maths=marks2
-        self.geo=marks3
-        def averageCalc(self):
-            print((self.science+self.maths+self.geo)/3)
+# class student:
+#     def __init__(self,marks1,marks2,marks3):
+#         self.science=marks1 #variables=parameters
+#         self.maths=marks2
+#         self.geo=marks3
+#         def averageCalc(self):
+#             print((self.science+self.maths+self.geo)/3)
 # @staticmethod
 # def staticMethodExample():
 #     print("")
 
 
-student1=student(10,10,10)
-student2=student(90,90,90)
-student3=student(20,20,20)
-student1.averageCalc()
-student2.averageCalc()
-student3.averageCalc()
+# student1=student(10,10,10)
+# student2=student(90,90,90)
+# student3=student(20,20,20)
+# student1.averageCalc()
+# student2.averageCalc()
+# student3.averageCalc()
+#   INHERITANCE
+# class A:
+#     def method1(self):
+#         print("this is method 1")
+# class B(A):
+#     def method2(self):
+#         print("print this method 2")
+# # class C(B,A):   #multiple in heritance
+# #     def mehod3(self):
+# #         print("this is method 3")
+# objA=A()
+# objB=B()
+# # objC=C()
+
+# objC.method2()
+ 
+
+# class A:
+#     def __init__(self):
+#         print("This is init of method A")
+
+#     def method1(self):
+#         print("This is method 1")
+
+# class B(A):
+#     def __init__(self):
+#         super().__init__()
+#         print("This is init of method B")
+
+#     def method2(self):
+#         print("This is method  2")
+
+# class C(B,A):
+    
+#     def method3(self):
+#         print("This is method 3")
+
+# objB = B()
+
+
